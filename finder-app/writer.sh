@@ -9,7 +9,7 @@ fi
 
 WRITE_FILE=$1
 WRITE_STRING=$2
-WRITE_FILE_DIR_NAME="$(dirname "/tmp/aeld-data/tkuchynsky@gmail.com1.txt")"
+WRITE_FILE_DIR_NAME="$(dirname ${WRITE_FILE})"
 
 echo "WRITE_FILE: ${WRITE_FILE}"
 echo "WRITE_STRING: ${WRITE_STRING}"
